@@ -35,7 +35,7 @@ const Home = ({
                         <p>Students info</p>
                         
                                 <div className="tables">
-                                    <BasicTable data={getprofile?.lastTenTransactions}/>
+                                    <BasicTable/>
                                 </div>
                         
 
