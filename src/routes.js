@@ -10,6 +10,7 @@ import Newpassword from "./Pages/Login/NewPassword";
 import Students from "./Pages/Students/Students";
 import Transaction from "./Pages/Transactions/Transaction";
 import Settings from "./Pages/Settings/Settings";
+import NewStudent from "./Pages/Students/NewStudent";
 
 export default function Router() {
   const routes = useRoutes([
@@ -38,6 +39,7 @@ export default function Router() {
         { path: "students", element: <Students/> },
         { path: "transaction", element: <Transaction/> },
         { path: "settings", element: <Settings /> },
+        { path: "newstudent", element: <NewStudent/> },
         // { path: "create/upload", element: <Uplaod /> },
         // { path: "create-content", element: <Content /> },
         // { path: "create-library", element: <ContentLibrary /> },
