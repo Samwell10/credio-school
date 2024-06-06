@@ -1,0 +1,15 @@
+.layout{
+    display: flex;
+}
+/* .layout-left{
+    width: 314px;
+} */
+.layout-right{
+    width: calc(100% - 220px);
+    margin-left: 220px;
+}
+.layout-body{
+    position: relative;
+    margin-top: 85px;
+    padding: 2rem 2.1rem;
+}
